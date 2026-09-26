@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMSTORE - T-Shirts</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0b0b0b;
+            color: white;
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #333;
+        }
+
+        .logo {
+            font-size: 32px;
+            font-weight: bold;
+            letter-spacing: 3px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 60px;
+            margin: 0;
+        }
+
+        .hero p {
+            color: #aaa;
+            font-size: 18px;
+        }
+
+        .button {
+            display: inline-block;
+            background: white;
+            color: black;
+            padding: 15px 30px;
+            margin-top: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .products {
+            padding: 50px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .products h2 {
+            text-align: center;
+            font-size: 35px;
+            margin-bottom: 40px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .product {
+            background: #171717;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .photo {
+            height: 300px;
+            background: #252525;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #777;
+            margin-bottom: 20px;
+        }
+
+        .price {
+            color: #ccc;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: #777;
+            border-top: 1px solid #333;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">IMSTORE</div>
+</header>
+
+<section class="hero">
+    <h1>IMSTORE</h1>
+    <p>Streetwear • T-Shirts • Éditions limitées</p>
+
+    <a class="button" href="#produits">
+        VOIR NOS T-SHIRTS
+    </a>
+</section>
+
+<section class="products" id="produits">
+
+    <h2>NOS T-SHIRTS</h2>
+
+    <div class="grid">
+
+        <div class="product">
+            <div class="photo">
+                PHOTO T-SHIRT
+            </div>
+
+            <h3>T-Shirt Black</h3>
+            <p class="price">2500 DA</p>
+
+            <a class="button" href="#">
+                COMMANDER
+            </a>
+        </div>
+
+        <div class="product">
+            <div class="photo">
+                PHOTO T-SHIRT
+            </div>
+
+            <h3>T-Shirt White</h3>
+            <p class="price">2500 DA</p>
+
+            <a class="button" href="#">
+                COMMANDER
+            </a>
+        </div>
+
+        <div class="product">
+            <div class="photo">
+                PHOTO T-SHIRT
+            </div>
+
+            <h3>Edition Street</h3>
+            <p class="price">3000 DA</p>
+
+            <a class="button" href="#">
+                COMMANDER
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    © 2026 IMSTORE
+</footer>
+
+</body>
+</html>
